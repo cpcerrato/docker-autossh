@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 
 REMOTE_SSH_PORT=${REMOTE_SSH_PORT:-22}
 REMOTE_TARGET_HOST=${REMOTE_TARGET_HOST:-localhost}
