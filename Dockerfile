@@ -17,4 +17,4 @@ USER autossh
 WORKDIR /home/autossh
 
 ENTRYPOINT ["/usr/local/bin/dumb-init", "--"]
-CMD ["start.sh"]
+CMD ["./start.sh"]
